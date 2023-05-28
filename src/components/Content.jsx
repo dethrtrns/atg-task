@@ -31,11 +31,11 @@ const Content = () => {
             </span>
           </span>
         </div>
-        <img
+        {/* <img
           alt='baselineerroroutline24px1853'
           src='/external/baselineerroroutline24px1853-gi7.svg'
           className='home-baselineerroroutline24px'
-        />
+        /> */}
       </div>
       <div className='home-group7'>
         <img
