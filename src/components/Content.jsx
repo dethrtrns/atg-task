@@ -4,7 +4,7 @@ const Content = () => {
   return (
     <>
       {/* <div className='home-not-logged-in-desktop'> */}
-      <div className='d-none-md'>
+      <div className='d-none d-md-flex'>
         <img
           alt='outlinelocationon24px21842'
           src='/external/outlinelocationon24px21842-t0r2.svg'

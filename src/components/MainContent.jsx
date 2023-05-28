@@ -4,7 +4,7 @@ import Content from "./Content";
 const MainContent = () => {
   return (
     <div className='container px-5 py-3'>
-      <div className='d-flex justify-content-start align-items-center border-bottom mb-3'>
+      <div className='d-flex justify-content-start align-items-center border-bottom mb-3 d-none d-md-flex'>
         <div
           className='nav nav-tabs border-0'
           role='tablist'>
