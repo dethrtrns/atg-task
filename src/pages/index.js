@@ -79,18 +79,20 @@ export default function Home() {
           </div>
         </nav>
         <div className='hero bg-cover text-start d-flex align-items-end justify-content-start bg-rectangle-2'>
-          <button className='btn btn-link text-white position-absolute top-0 start-0 m-3 d-md-none'>
-            <i className='fas fa-arrow-left'></i>
-          </button>
-          <button
-            className='btn btn-outline-light position-absolute top-0 end-0 m-3 d-md-none'
-            data-bs-toggle='modal'
-            data-bs-target='#signUpModal'>
-            Join Group
-          </button>
-          <div className='text-white p-3 text-container'>
-            <h1>Computer Engineering</h1>
-            <p>142,765 Computer Engineers follow this</p>
+          <div className='d-flex text-container align-items-end bg-color w-100 h-100'>
+            <button className='btn btn-link text-white position-absolute top-0 start-0 m-3 d-md-none'>
+              <i className='fas fa-arrow-left'></i>
+            </button>
+            <button
+              className='btn btn-outline-light position-absolute top-0 end-0 m-3 d-md-none'
+              data-bs-toggle='modal'
+              data-bs-target='#signUpModal'>
+              Join Group
+            </button>
+            <div className='text-white p-3'>
+              <h1>Computer Engineering</h1>
+              <p>142,765 Computer Engineers follow this</p>
+            </div>
           </div>
         </div>
         <style jsx>{`
@@ -112,6 +114,10 @@ export default function Home() {
             background-size: cover;
             opacity: 0;
             transition: opacity 0.5s ease-in-out;
+          }
+
+          .bg-color {
+            background-color: rgba(0, 0, 0, 0.5);
           }
 
           .text-container {
