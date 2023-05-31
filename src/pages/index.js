@@ -78,7 +78,7 @@ export default function Home() {
             </div>
           </div>
         </nav>
-        <div className='hero bg-cover text-start d-flex align-items-end justify-content-start bg-rectangle-2'>
+        <div className='hero text-start d-flex align-items-end justify-content-start bg-rectangle-2'>
           <div className='d-flex text-container align-items-end bg-color w-100 h-100'>
             <button className='btn btn-link text-white position-absolute top-0 start-0 m-3 d-md-none'>
               <i className='fas fa-arrow-left'></i>
