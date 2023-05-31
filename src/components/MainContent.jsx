@@ -10,7 +10,7 @@ const MainContent = () => {
   };
 
   return (
-    <div className='container px-1 px-lg-5 py-3'>
+    <div className='container px-0 px-md-5 py-3'>
       <div
         id='filter-bar'
         className='d-md-none border-bottom mb-3'>
@@ -139,9 +139,9 @@ const MainContent = () => {
           <i className='fas fa-user-plus me-1'></i> Join Group
         </button>
       </div>
-      <code>figma to code{`<jsx>`} from here on out! </code>
-      <ContentRaw />
-      {/* <Content /> */}
+      {/* <code>figma to code{`<jsx>`} from here on out! </code> */}
+      {/* <ContentRaw /> */}
+      <Content />
       <style jsx>{`
         .nav-link.active.text-dark {
           color: #000 !important;
